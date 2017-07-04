@@ -17,6 +17,6 @@ static  : makes a variable/method value persistent in the entire program. Helps 
         : Example - In a classroom class, we define variables student A, B, C and static String projector status ='On'
         : This means the projector variable referenced by any student object A, B, C will always find the value of projector as 'On'.
         : JRE will not create separate object in memory about projector for obj A, obj B, obj C.
-void    : main function does not have to return anything so it is set as void.
+void    : return nothing, so main function does not have to return anything so it is set as void.
 
 **/
