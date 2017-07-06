@@ -1,3 +1,11 @@
+/*
+A simple Banke which allows to,
+	-create a new account.
+	-deposit to the account.
+	-withdrawal from the account.
+	-check the balance.
+*/
+
 class Banker{
 	static String name="DNM Bank";
 	long dep_amount, withdrawal;
