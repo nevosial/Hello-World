@@ -49,7 +49,7 @@ class DNMBank2{
 	public static void main(String args[])
 	{
 		Banker nev = new Banker("Nev", 281988, 5000000);
-		Banker dia = new Banker("Dia", 281988, 1000000);
+		Banker dia = new Banker("Dia", 281988, 1000000);		
 		
 		nev.checkBalance();
 		nev.deposit(5000000);
@@ -62,6 +62,14 @@ class DNMBank2{
 		dia.checkBalance();
 		dia.withdraw(176000);
 		dia.checkBalance();
+		
+		//Invoking static variable defined in the class directly from the class.
+		System.out.println("Printing Bank Name..."+Banker.name);
+		
+		//Invoking static variable defined in the class directly using object of that class.
+		System.out.println("Printing Bank Name..."+nev.name);
+		
+		
 		
 	}
 }
