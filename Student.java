@@ -24,6 +24,7 @@ class stddetails{
 class Student{
 	public static void main(String args[])
 	{
+		//initialized objects nev and dia
 		stddetails nev = new stddetails();
 		stddetails dia = new stddetails();
 		
