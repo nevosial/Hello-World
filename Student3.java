@@ -42,7 +42,15 @@ class Student3{
 		Stud dia = new Stud(21, "Dia", "A", 15);
 		Stud mia = new Stud(dia); //mia will have same values as Dia.
 		
+		//Copying values without using constructors.
+		Stud nev = new Stud();
+		nev.id = 27;    	//Direct assignment
+		nev.name = "Nev";
+		nev.div = dia.div;  //copy values from another object.
+		nev.age = 12;
+		
 		dia.display();
 		mia.display();
+		nev.display();
 	}
 }
