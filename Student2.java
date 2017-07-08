@@ -35,10 +35,11 @@ class Stud{
 class Student2{
 	public static void main(String args[])
 	{
+		//Constructor overloading.
 		Stud nev = new Stud(0027, "Nev");
 		Stud dia = new Stud(0021, "Dia", "A", 15);
 		
-		nev.display();
-		dia.display();
+		nev.display(); //Will display default values for age(int) and divsion(String)
+		dia.display(); 
 	}
 }
