@@ -1,0 +1,42 @@
+/***
+Program concept -> Inheritance.
+1. Single inheritance.
+2. Multi-Level inheritance.
+3. Hierarchical inheritance.
+***/
+
+//Hierarchical
+
+class Employee {
+
+	String location = "CA";
+	float salary = 100000;
+	
+	}
+	
+	class Finance extends Employee{
+		float bonus = 50000;
+	}
+	
+	class Marketing extends Employee{
+		float bonus = 55000;
+	}
+	
+	class Engineering extends Employee{
+		float bonus = 80000;
+	}
+
+	class jInherit{
+		public static void main(String args[])
+		{
+			Finance f = new Finance();
+			Marketing m = new Marketing();
+			Engineering e = new Engineering();
+			
+			System.out.println("Finance Dept salary: "+f.salary+" Bonus: "+f.bonus);
+			System.out.println("Marketing Dept salary: "+e.salary+" Bonus: "+m.bonus);
+			System.out.println("Engineering Dept salary: "+e.salary+" Bonus: "+e.bonus);
+			
+		}
+	}
+	
