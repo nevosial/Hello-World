@@ -5,7 +5,7 @@ Program concept -> Inheritance.
 3. Hierarchical inheritance.
 ***/
 
-//Hierarchical
+// example Hierarchical
 
 class Employee {
 
