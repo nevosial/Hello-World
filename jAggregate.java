@@ -20,3 +20,25 @@ class Address{
 	}
 }
 
+class Student{
+	String name;
+	int rollno;
+	Address address;
+	
+	Student(String name, int rollno, Address address){
+		this.name = name;
+		this.rollno = rollno;
+		this.address = address;
+	}
+	
+	void display(){
+		System.out.println("========"+schoolname+"==========");
+		System.out.println("Student Details");
+		System.out.println("ID: "+id);
+		System.out.println("Name: "+name);
+		System.out.println("Age: "+age);
+		System.out.println("Division: "+div);
+		System.out.println("=========================");
+	}
+}
+
